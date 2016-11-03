@@ -15,7 +15,7 @@ import java.util.Properties;
 import com.exception.ConfFileNotFoundException;
 
 /**
- * The Class CacheManager is a builder which generates instances of Cache. This
+ * The Class CacheManager is a builder which generates instances of cache. This
  * class is a singleton and is responsible for reading the configuration file to
  * determine the cache properties. The caches are created with the following
  * characteristics
