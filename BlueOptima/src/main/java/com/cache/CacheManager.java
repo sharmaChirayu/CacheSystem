@@ -50,7 +50,7 @@ public class CacheManager {
 	private static final String BACKUP_PATH = "BackupPath";
 
 	/** The cache manager. */
-	private static CacheManager cacheManager;
+	private static volatile CacheManager cacheManager;
 
 	/** The cache properties. */
 	private Properties cacheProperties;
