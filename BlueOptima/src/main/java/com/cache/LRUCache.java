@@ -48,7 +48,7 @@ public class LRUCache<V> extends Cache<V> {
 	 * @param size
 	 *            the maximum number of elements allowed in this cache
 	 * @param ttl
-	 *            the maximum amount of time an elements resides in this cache
+	 *            the maximum amount of time an elements reside in this cache
 	 */
 	protected LRUCache(String name, int size, int ttl) {
 		cacheName = name;
