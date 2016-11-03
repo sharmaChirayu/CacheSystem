@@ -1,5 +1,5 @@
 # CacheSystem
-Light in-memory data store backed by filesystem which can be used as a cache.
+In-memory data store backed by filesystem which can be used as a cache.
 The idea behind this solution is to store the elements in memory in the form of a key value pair using the Map data structure. This solution provides a means to manage cached data of various type. The cache contents are backed up on file system to facilitate process restart. The basic idea behind the solution is as follows.
 
 a) The elements are manually inserted in the cache and they are kept in it until they are explicitly removed or become invalidated using a time based expiration.
