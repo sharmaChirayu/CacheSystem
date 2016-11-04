@@ -18,7 +18,7 @@ import java.util.Set;
 public class CacheBackup extends Thread {
 
 	/** The cache backup. */
-	private static CacheBackup cacheBackup;
+	private static volatile CacheBackup cacheBackup;
 
 	/** The backup path. */
 	private Path backupPath;
