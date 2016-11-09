@@ -28,7 +28,7 @@ public class LRUCache<V> extends Cache<V> {
 	 * The lock object to use for synchronizing the insertion, deletion and
 	 * retrieval of elements.
 	 */
-	private Object lock = new Object();
+	private final Object lock = new Object();
 
 	/**
 	 * Instantiates a new LRU cache.
